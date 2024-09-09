@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>my_bot</name>
+  <name>void_bot</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="my_email@email.com">MY NAME</maintainer>
-  <license>TODO: License declaration</license>
+  <maintainer email="omar91010@email.com">omar</maintainer>
+  <license>MIT license</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
