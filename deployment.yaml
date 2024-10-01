@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ros2-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ros2-app
+  template:
+    metadata:
+      labels:
+        app: ros2-app
+    spec:
+      containers:
+      - name: ros2-app
+        image: gcr.io/silver-argon-437216-u7/ros2_app:latest
+        ports:
+        - containerPort: 8080
